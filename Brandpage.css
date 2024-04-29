@@ -213,28 +213,27 @@ h8 {
 }
 
 @media (max-width: 768px) {
-  .image1,
-  .image2 {
-    width: 100%;
-    max-height: unset;
-    padding-left: 0;
-    padding-right: 0;
+  h2 {
+    font-size: 1.5rem;
   }
 
   .small-image {
-    height: 80px;
-    margin-right: 10px;
-    border-radius: 10px;
+    max-width: 50%;
+  }
+
+  .image1,
+  .image2 {
+    max-width: 80%;
+    margin: auto;
   }
 }
 
 @media (max-width: 576px) {
-  .image2 {
-    width: 20%;
+  h2 {
+    font-size: 1.2rem;
   }
 
   .small-image {
-    height: 60px;
-    margin-right: 5px;
+    max-width: 20%;
   }
 }
